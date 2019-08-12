@@ -1,0 +1,192 @@
+
+body{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  color: #484c7f;
+  background-color: #dea5a4;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 700;
+}
+
+p{
+  color: #484c7f;
+
+  font-size: 1.5rem;
+}
+
+form{
+  margin: 20% 15% 7%;
+  font-family: serif;
+  background-color: #dea5a4;
+}
+
+.about-text{
+  margin: auto 15%;
+  color: #484c7f;
+}
+
+.send{
+  background-color: #dea5a4;
+  color: #fff;
+}
+
+/* Headings */
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #484c7f;
+}
+
+.section-heading-dark{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #484c7f;
+  margin-top: 7%;
+}
+
+.card-body{
+  font-family: serif;
+}
+
+.card{
+  background-color: #dea5a4;
+}
+
+#title{
+  color: #484c7f;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+
+nav .navbar-nav li a{
+  color: #484c7f !important;
+  }
+
+.navbar-brand{
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0;
+}
+
+/* Title Image */
+
+.title-image{
+  position: static;
+}
+
+/* Pricing Section */
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing{
+  background-color: #dea5a4;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+#about{
+  background-color: #dea5a4;
+  padding: 100px;
+}
+
+#footer{
+    background-color: #dea5a4;
+    padding: 2% 15%;
+}
+
+.foot-icon{
+    color: #484c7f;
+    margin: 20px 40px;
+    font-size: 3rem;
+}
+
+.foot-icon:hover{
+  color: #fff;
+}
+@media (min-width: 1300px) {
+  .title-image{
+    width: 100%;
+    }
+
+}
+@media (min-width: 10px) {
+  .title-image{
+    height: 100%;
+    width: 100%;
+    }
+
+}
+@media (max-width: 1028px) {
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    height: 100%;
+    width: 100%;
+    position: static;
+    }
+
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .about-text{
+    font-size: 3rem;
+    margin: 10px;
+  }
+
+  #about{
+    padding: 10px;
+  }
+}
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .about-text{
+      font-size: 3rem;
+      margin: 10px;
+    }
+  }
+  /* tablets/desktops and up ----------- */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .about-text{
+      font-size: 3rem;
+      margin: 10px;
+    }
+  }
+  /* large desktops and up ----------- */
+  @media screen and (min-width: 1200px) {
+    .about-text{
+      font-size: 3rem;
+      margin: 10px;
+    }
+  }
+
+}
